@@ -19,6 +19,9 @@
                 Console.WriteLine(Data.typesOfRice[i].Price);
                 Console.WriteLine(Data.typesOfRice[i].Type);
                 Console.WriteLine("-------------------");
+                int val = Data.typesOfRice[i].Kg * Data.typesOfRice[i].Price;
+                Console.WriteLine("The Price for " + Data.typesOfRice[i].Kg + "kg is " + val);
+                Console.WriteLine("-------------------");
             }
             Console.WriteLine("-------------------");
             Console.WriteLine("Types of Pulses");
@@ -30,6 +33,9 @@
                 Console.WriteLine(Data.typesOfPulses[i].Price);
                 Console.WriteLine(Data.typesOfPulses[i].Type);
                 Console.WriteLine("-------------------");
+                int val = Data.typesOfPulses[i].Kg * Data.typesOfPulses[i].Price;
+                Console.WriteLine("The Price for " + Data.typesOfPulses[i].Kg + "kg is " + val );
+                Console.WriteLine("-------------------");
             }
             Console.WriteLine("-------------------");
             Console.WriteLine("Types of Wheat");
@@ -40,6 +46,9 @@
                 Console.WriteLine(Data.typesOfWheat[i].Kg);
                 Console.WriteLine(Data.typesOfWheat[i].Price);
                 Console.WriteLine(Data.typesOfWheat[i].Type);
+                Console.WriteLine("-------------------");
+                int val = Data.typesOfWheat[i].Kg * Data.typesOfWheat[i].Price;
+                Console.WriteLine("The Price for " + Data.typesOfWheat[i].Kg + "kg is " + val);
                 Console.WriteLine("-------------------");
             }
         }
